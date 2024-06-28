@@ -1,0 +1,146 @@
+/* Navbar.css */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 1300px;
+  margin: 0 auto;
+  border-radius: 20px;
+  position: absolute;
+  top: 1%;
+  right: 15%; 
+}
+
+.navbar-brand img {
+  height: 70px; /* Adjust the height of your logo */
+}
+
+.navbar-nav {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
+  justify-content:space-between;
+  align-items: center;
+}
+
+.nav-item {
+  margin-right: 40px;
+  
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  border-radius: 5px solid black;
+}
+
+.nav-link:hover {
+  color: #007bff; /* Change the hover color as needed */
+}
+
+.dropdown-menu {
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+  position: absolute;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color:black;
+  
+  
+}
+
+.dropdown-item {
+  padding: 5px 10px;
+  background-color: #FFF;
+    margin-bottom: 10px;
+}
+
+/* Navbar.css */
+
+.contact-info {
+  display: flex;
+  align-items: center;
+
+}
+
+.contact-info span {
+  color: #333; /* Color of the phone number */
+  font-size: 16px; /* Font size of the phone number */
+  margin-left: 350px; /* Spacing between phone number and icons */
+  padding-left: 5px;
+  white-space: nowrap;
+
+}
+
+.contact-info svg {
+  color: #666; /* Color of the divider and user icon */
+  font-size: 20px; /* Font size of the divider and user icon */
+  margin:  10px; /* Spacing around the divider and user icon */
+}
+
+.num {
+  font-weight: bold;
+}
+/* Container styling */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  /* background-color: #f0f0f0; */
+  position: absolute;
+  top: 1%;
+  left: 300px; 
+}
+
+/* Text container styling */
+.text-container {
+  text-align: left;
+  padding: 40px;
+  border-radius: 10px;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+  max-width: 400px;
+ 
+}
+
+/* Heading styles */
+.text-container h3 {
+  font-size: 24px;
+  color: #f88807;
+  margin-bottom: 10px;
+  font-family: caveat;
+  
+}
+
+.text-container h1 {
+  font-size: 48px;
+  color: #333;
+  margin-bottom: 20px;
+  
+}
+
+/* Button styling */
+.text-container button {
+  background-color: #dc7806;
+  color: white;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 30px;
+  
+
+}
+
+.text-container button:hover {
+  background-color: #0056b3;
+}
