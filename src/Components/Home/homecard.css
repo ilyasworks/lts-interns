@@ -1,0 +1,145 @@
+/* Homecard.css */
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+.homecard-container {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.homecard-subtitle {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #f88807;
+  font-family: caveat;
+  
+  
+}
+
+.homecard-title {
+  font-size: 50px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.homecard-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.homecard-card {
+  background-color: #fff;
+  width: calc(25.333% - 20px);
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  overflow: hidden;
+  transition: transform 0.2s;
+  padding: 15px;
+  position: relative;
+}
+
+.homecard-card:hover {
+  transform: translateY(-5px);
+}
+
+.homecard-image {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.homecard-button {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #ff6347;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  font-size: 14px;
+  margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.homecard-info-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 0.1px solid black;
+  border-radius: 20px;
+  padding: 10px 10px;
+  position: relative;
+  background-color: white;
+  max-width: 300px;
+  margin: -25px auto ;
+
+}
+
+.homecard-info-item {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #666;
+}
+
+.homecard-info-item span {
+  margin-left: 5px;
+}
+
+.homecard-rating {
+  display: flex;
+  align-items: center;
+  color: #ff6347;
+}
+
+.homecard-location {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #666;
+}
+
+.homecard-divider {
+  margin: 10px 0;
+}
+
+.homecard-price {
+  text-align: left;
+}
+
+.homecard-price h6 {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.homecard-price p {
+  font-size: 16px;
+  color: #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.homecard-original-price {
+  text-decoration: line-through;
+  color: #999;
+  margin-left: 10px;
+}
+
+.homecard-explore {
+  color: #ff6347;
+  margin-left: 10px;
+}
+.homecard-card-title{
+  font-size: 15px;
+  margin-top: 50px;
+  text-align: left;
+}

@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
+.banner {
+  background-color: #F9F4F0;
+  background-size: cover;
+  background-position: center;
+  padding: 50px 20px;
+  display: flex;
+  align-items: center;
+  color: black;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.banner-options-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin-bottom: 30px;
+  width: 30%;
+  margin-left: 200px;
+}
+
+.banner-option {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.banner-option:hover {
+  transform: translateY(-10px);
+  background-color: #35CADC;
+}
+
+.icon {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+.banner-option h1 {
+  font-size: 3em;
+  margin: 10px 0;
+  color:#F2531D;
+}
+
+.banner-option p {
+  font-size: 1em;
+  margin: 0;
+}
+
+.banner-text {
+  max-width: 480px;
+  margin:auto 100px;
+  text-align: left;
+  
+}
+
+.banner-text h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.banner-text p {
+  font-size: 1.2em;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+
+.banner-text button {
+  background-color: orange;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.banner-text button:hover,
+.banner-text button:focus {
+  background-color: #35CADC;
+  outline: none;
+}
+
