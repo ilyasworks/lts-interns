@@ -4,6 +4,9 @@ import BG2 from '../../assets/Background2.png';
 import Navbar from '../navbar';
 import Homecard from './homecard';
 import TravelEasy from './TravelEasy';
+import PerfectDis from './perfectDis';
+import Perfectdis1 from './perfectDis1';
+import Portfolio from './porfolio';
 
 
 const Home = () => {
@@ -18,6 +21,9 @@ const Home = () => {
 
     <Homecard/>
     <TravelEasy/>
+    <PerfectDis/>
+    <Perfectdis1/>
+    <Portfolio/>
    </>
 
   );
