@@ -7,6 +7,9 @@ import TravelEasy from './TravelEasy';
 import PerfectDis from './perfectDis';
 import Perfectdis1 from './perfectDis1';
 import Portfolio from './porfolio';
+import HomeFooter from './Footer';
+
+
 
 
 const Home = () => {
@@ -18,12 +21,15 @@ const Home = () => {
       <img className="bg-image1" src={BG1} alt="Background 1" />
       <img className="bg-image2" src={BG2} alt="Background 2" />
     </div>
-
+   
     <Homecard/>
     <TravelEasy/>
     <PerfectDis/>
     <Perfectdis1/>
     <Portfolio/>
+    <HomeFooter/>
+
+   
    </>
 
   );
