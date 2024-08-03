@@ -1,0 +1,54 @@
+/* src/components/Header.css */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    color: #333;
+    max-width: 1030px;
+    margin: 0 auto;
+    border-radius: 8px;
+    background-color: rgb(235 235 235 / 80%);
+    box-shadow: 13px 13px 0px 0px  #FFFFFF;
+    }
+    
+    .header-left {
+      display: flex;
+      align-items: center;
+    }
+    
+    .logo {
+      font-size: 1.5rem;
+      margin-right: 20px;
+    }
+    
+    nav ul {
+      list-style: none;
+      display: flex;
+      margin: 0;
+      padding: 0;
+    }
+    
+    nav ul li {
+      margin: 0 10px;
+    }
+    
+    nav ul li a {
+      color: #333;
+      text-decoration: none;
+    }
+    
+    .header-right {
+      display: flex;
+      align-items: center;
+    }
+    
+    .contact-number {
+      margin-right: 10px;
+    }
+    
+    .icon {
+      margin-left: 5px;
+    }
+    

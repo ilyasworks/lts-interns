@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { FaMinus, FaUser } from 'react-icons/fa';
-import '../Components/Home/Navbar.css';
-import Logo from '../assets/Logo.png';
+import '../../../Components/Pages/Home/Navbar.css';
+import Logo from '../../../assets/Logo.png';
 import { IoMdArrowDropdown } from "react-icons/io";
 
 const Navbar = () => {

@@ -3,9 +3,9 @@ import { CgCalendar } from 'react-icons/cg';
 import { CiLocationOn } from 'react-icons/ci';
 import { FaArrowRight } from 'react-icons/fa';
 import '../Home/homecard.css';
-import Card1 from '../../assets/card 1.png';
-import Card2 from '../../assets/card 2.png';
-import Card3 from '../../assets/card 3.png';
+import Card1 from '../../../assets/card 1.png';
+import Card2 from '../../../assets/card 2.png';
+import Card3 from '../../../assets/card 3.png';
 
 const Homecard = () => {
   const cards = [

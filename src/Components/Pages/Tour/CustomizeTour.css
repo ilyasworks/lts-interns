@@ -1,13 +1,11 @@
-/* CustomizeTour.css */
 
 .hero-image {
  
   width: 100%;
-  height: 400px; /* Adjust the height as needed */
+  height: 400px; 
   display: flex;
   align-items: center;
   justify-content: center;
-  /* overflow: hidden; */
 }
 
 .background-image {

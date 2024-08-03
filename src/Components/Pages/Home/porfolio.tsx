@@ -1,34 +1,37 @@
-import React, { useRef } from 'react';
-import { Carousel } from 'react-responsive-carousel';
-import 'react-responsive-carousel/lib/styles/carousel.min.css';
-import { FaStar } from 'react-icons/fa';
-import { RightOutlined, LeftOutlined } from '@ant-design/icons';
-import './Portfolio.css';
-import DeveloperImage from '../../assets/designer.png'; // Update the path as necessary
+import React, { useRef } from "react";
+import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { FaStar } from "react-icons/fa";
+import { RightOutlined, LeftOutlined } from "@ant-design/icons";
+import "./Portfolio.css";
+import DeveloperImage from "../../../assets/designer.png"; // Update the path as necessary
 
 const people = [
   {
     id: 1,
     image: DeveloperImage,
-    name: 'John Doe',
-    designation: 'Web Developer',
-    about: 'John is a skilled web developer with 5 years of experience in creating amazing websites.',
+    name: "John Doe",
+    designation: "Web Developer",
+    about:
+      "John is a skilled web developer with 5 years of experience in creating amazing websites.",
     rating: 4,
   },
   {
     id: 2,
     image: DeveloperImage,
-    name: 'Jane Smith',
-    designation: 'Graphic Designer',
-    about: 'Jane is a creative graphic designer who loves to bring ideas to life through stunning visuals.',
+    name: "Jane Smith",
+    designation: "Graphic Designer",
+    about:
+      "Jane is a creative graphic designer who loves to bring ideas to life through stunning visuals.",
     rating: 5,
   },
   {
     id: 3,
     image: DeveloperImage,
-    name: 'Mike Johnson',
-    designation: 'Project Manager',
-    about: 'Mike is an experienced project manager who ensures that projects are completed on time and within budget.',
+    name: "Mike Johnson",
+    designation: "Project Manager",
+    about:
+      "Mike is an experienced project manager who ensures that projects are completed on time and within budget.",
     rating: 3,
   },
   // Add more people as needed
@@ -56,7 +59,10 @@ const Portfolio = () => {
         <h1 className="portfolio-title">Our Team</h1>
       </div>
       <div className="portfolio-carousel-container">
-        <LeftOutlined className="portfolio-carousel-arrow left" onClick={handlePrev} />
+        <LeftOutlined
+          className="portfolio-carousel-arrow left"
+          onClick={handlePrev}
+        />
         <Carousel
           ref={carouselRef}
           showArrows={false}
@@ -78,13 +84,16 @@ const Portfolio = () => {
               <p className="portfolio-card-about">{about}</p>
               <div className="portfolio-card-rating">
                 {Array.from({ length: 5 }).map((_, i) => (
-                  <FaStar key={i} color={i < rating ? 'gold' : 'gray'} />
+                  <FaStar key={i} color={i < rating ? "gold" : "gray"} />
                 ))}
               </div>
             </div>
           ))}
         </Carousel>
-        <RightOutlined className="portfolio-carousel-arrow right" onClick={handleNext} />
+        <RightOutlined
+          className="portfolio-carousel-arrow right"
+          onClick={handleNext}
+        />
       </div>
     </div>
   );
