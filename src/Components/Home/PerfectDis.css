@@ -19,8 +19,9 @@
 .carousel {
   display: flex;
   justify-content: center;
-  gap: 150px;
+  gap: 80px;
   margin-bottom: 50px;
+  border-radius: 5px solid black;
 
 }
 
