@@ -3,6 +3,8 @@ import Home from "./Components/Pages/Home/home";
 import Homecard from "./Components/Pages/Home/homecard";
 import CustomizeTour from "./Components/Pages/Tour/CustomizeTour";
 import TourCollectionPage from "./Components/Pages/Tour/TourCollectionPage";
+import Tour from "./Components/Pages/Tour/Tour";
+
 
 export default function App() {
   return (
@@ -12,6 +14,7 @@ export default function App() {
         <Route path="/*" element={<Homecard />}></Route>
         <Route path="/CustomizeTour" element={<CustomizeTour />}></Route>
         <Route path="/TourCollectionPage" element={<TourCollectionPage />}></Route>
+        <Route path="/Tour" element={<Tour />}></Route>
       </Routes>
     </BrowserRouter>
   );

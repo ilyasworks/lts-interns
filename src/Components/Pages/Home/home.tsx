@@ -12,12 +12,11 @@ import HomeFooter from "./Footer";
 const Home = () => {
   return (
     <>
-      <Navbar />
+      <Navbar />\
       <div className="image-container">
         <img className="bg-image1" src={BG1} alt="Background 1" />
         <img className="bg-image2" src={BG2} alt="Background 2" />
-      </div>
-
+      </div>\
       <Homecard />
       <TravelEasy />
       <PerfectDis />

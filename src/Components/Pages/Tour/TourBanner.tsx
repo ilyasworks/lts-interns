@@ -3,12 +3,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMapMarkerAlt, faVideo, faCamera, faPlus } from '@fortawesome/free-solid-svg-icons';
 import './TourBanner.css';
 
+
 const TourBanner: React.FC = () => {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
   const [showMoreImages, setShowMoreImages] = useState<boolean>(false);
 
   const images: string[] = [
-    'Rectangle 55.png', // replace with actual image paths
+    'Rectangle 55.png',
     'Rectangle 56.png',
     'Rectangle 57.png',
     'Rectangle 58.png',
@@ -21,6 +22,7 @@ const TourBanner: React.FC = () => {
   };
 
   return (
+    <>
     <div className="banner">
       <div className="item">
         <div className="left">
@@ -61,6 +63,7 @@ const TourBanner: React.FC = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 

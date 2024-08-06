@@ -1,7 +1,5 @@
-// src/components/Banner.tsx
 
 import React from 'react';
-// import '../components/common.css';
 import './Banner.css';
 import bannerImage from '../../../assets/Banner-image.png';
 

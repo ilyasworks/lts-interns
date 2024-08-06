@@ -1,8 +1,8 @@
 // src/components/Header.tsx
 
-import React from 'react';
+import React from "react";
 // import '../components/common.css';
-import './Header.css';
+import "./Header.css";
 
 const Header: React.FC = () => {
   return (
@@ -11,10 +11,18 @@ const Header: React.FC = () => {
         <span className="logo">Logo</span>
         <nav>
           <ul>
-            <li><a href="#hotel">Hotel</a></li>
-            <li><a href="#tour">Tour</a></li>
-            <li><a href="#blog">Blog</a></li>
-            <li><a href="#contact-us">Contact Us</a></li>
+            <li>
+              <a href="#hotel">Hotel</a>
+            </li>
+            <li>
+              <a href="#tour">Tour</a>
+            </li>
+            <li>
+              <a href="#blog">Blog</a>
+            </li>
+            <li>
+              <a href="#contact-us">Contact Us</a>
+            </li>
           </ul>
         </nav>
       </div>
@@ -25,6 +33,6 @@ const Header: React.FC = () => {
       </div>
     </header>
   );
-}
+};
 
 export default Header;
