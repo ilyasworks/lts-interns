@@ -1,0 +1,136 @@
+/* perfectDis1.css */
+
+.unique-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.unique-subtitle {
+    text-align: center;
+    font-size: 1.2em;
+    color: #F2531D;
+    font-family: caveat;
+}
+
+.unique-title {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px; /* Adjust margin as needed */
+    text-align: center;
+}
+
+.unique-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.unique-left-container {
+    flex: 1;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 1000px;
+}
+
+.unique-left-content {
+    text-align: left;
+}
+
+.unique-left-content img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.unique-left-content h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.unique-left-content p {
+    font-size: 24px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.unique-left-content button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #F2531D;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.unique-left-content button:hover {
+    background-color: #0056b3;
+}
+
+.unique-right-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex-direction: column;
+
+}
+
+.unique-column {
+    flex: 1;
+    max-width: 900px; /* Adjust max-width as needed */
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.unique-column img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.unique-column h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color:#F2531D;
+}
+
+.unique-column p {
+    font-size: 14px;
+    color: #666;
+}
+
+.unique-column.active {
+    transform: scale(1.05);
+}
+
+.image-title {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.image-title img {
+    width: 100px; /* Adjust as needed */
+    height: 100px; /* Adjust as needed */
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.image-title:hover {
+    background-color: #e0e0e0;
+}

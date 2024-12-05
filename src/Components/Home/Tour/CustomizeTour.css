@@ -1,0 +1,152 @@
+/* CustomizeTour.css */
+
+
+
+.customize-tour-image {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.background-image {
+  width: 100%;
+  height: auto;
+}
+
+.text-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hero-text {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.tour-titles {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.tour-title {
+  font-size: 20px;
+  color: #f47f20;
+  font-family: caveat;
+}
+
+.tour-subtitle {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Form Styles */
+.tour-form-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.form-section {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.form-section h4, .form-section h5 {
+  margin-bottom: 10px;
+}
+
+.form-section form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.input-field {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+}
+
+.input-field:last-child {
+  margin-right: 0;
+}
+
+.input-field label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.input-field input,
+.input-field select,
+.input-field textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-section button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007BFF;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.form-section button:hover {
+  background-color: #0056b3;
+}
+
+/* Image Section Styles */
+.image-section {
+  flex: 1;
+}
+
+.image-card {
+  display: flex;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.image-container {
+  width: 30%;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+}
+
+.image-container img {
+  width: 100%;
+}
+
+.text-content {
+  padding: 10px;
+  flex: 1;
+}
+
+.text-content h5 {
+  margin: 5px 0;
+}
+
+.text-content p {
+  margin: 5px 0;
+  color: #555;
+}
+
+.text-content svg {
+  margin-right: 5px;
+  color: #007BFF;
+}

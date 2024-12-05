@@ -1,0 +1,216 @@
+.footer-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #F9F4F0;
+    color: black;
+    position: relative;
+  }
+  
+  .footer-banner-background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url('banner-background.jpg') no-repeat center center;
+    background-size: cover;
+    z-index: -1;
+  }
+  
+  .footer-content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    z-index: 1;
+  }
+  
+  .footer-content {
+    text-align: left;
+    flex: 1;
+    padding-right: 20px; /* Added padding for spacing */
+  }
+  
+  .contact-text {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .icon {
+    margin-right: 5px;
+    font-size: 20px;
+  }
+  
+  .phone-number,
+  .email-address {
+    margin-left: 5px;
+  }
+  
+  .follow-us {
+    text-align: right;
+    flex: 1;
+    padding-left: 20px; /* Added padding for spacing */
+  }
+  
+  .footer-divider {
+    width: 80%;
+    height: 1px;
+    background-color: #ccc;
+    margin: 20px 0;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+  }
+  
+  .footer-main-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: #202F59;
+    color: white;
+    z-index: 1;
+  }
+  
+  .footer-logo-section,
+  .footer-services,
+  .footer-explore,
+  .footer-subscribe {
+    flex: 1;
+    margin: 10px;
+  }
+  
+  .footer-logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .footer-description p {
+    margin: 2px 0;
+    font-size: 14px;
+  }
+  
+  .services-title,
+  .explore-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .service-item,
+  .explore-item {
+    margin: 5px 0;
+    font-size: 14px;
+  }
+  
+  .footer-subscribe {
+    position: relative;
+    background-color: #1B2951;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+    margin: 10px;
+  }
+  
+  .subscribe-text-container {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .subscribe-text {
+    margin: 5px ;
+    text-align: left;
+  }
+  
+  .email-placeholder {
+    width: calc(100% - 40px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #eb5e22;
+    border-radius: 5px;
+  }
+  
+  .subscribe-button-text,
+  .subscribe-button {
+    width: calc(100% - 20px);
+    display: inline-block;
+    padding: 10px  10px;
+    background-color: #eb5e22;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0;
+  }
+  
+  .subscribe-button-text:hover,
+  .subscribe-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .subscribe-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('subscribe-background.jpg') no-repeat center center;
+    background-size: cover;
+    opacity: 0.3;
+    z-index: -1;
+  }
+  
+  .subscribe-divider {
+    width: 100%;
+    height: 1px;
+    background-color: #ccc;
+    margin: 10px 0;
+  }
+  
+  .footer-copyright-wrapper {
+    text-align: center;
+    padding: 20px;
+    background-color: #1B2951;
+    color: #fff;
+  }
+  
+  .footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 10px 0;
+    background-color: #f8f9fa;
+    color: #343a40;
+  }
+  
+  .footer-links div {
+    cursor: pointer;
+  }
+  
+  .footer-links div:hover {
+    text-decoration: underline;
+  }
+  
+  .privacy-link,
+  .policy-link,
+  .about-us-link,
+  .support-link,
+  .faq-link,
+  .blog-link {
+    display: inline-block;
+    margin: 5px 10px;
+    font-size: 14px;
+  }
+  
